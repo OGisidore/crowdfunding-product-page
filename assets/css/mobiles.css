@@ -1,0 +1,66 @@
+@media screen and (max-width: 700px) {
+  .hero {
+    background-image: url(/images/image-hero-mobile.jpg) !important;
+  }
+  .container {
+    width: 100vw !important;
+    margin: 0 !important;
+  }
+  .content {
+    width: 100% !important;
+    margin: 0 1rem;
+    /* padding: 0 !important; */
+  }
+  .menu {
+    display: block !important;
+  }
+  .navlist {
+    display: none;
+    position: absolute;
+    left: 5%;
+    top: 5rem;
+    border-radius: 0.5rem;
+    width: 90vw;
+    background-color: #fff;
+    box-shadow: 0.1rem 0.1rem 2rem 0.1rem #ccc;
+  }
+  .navlist.active {
+    display: block !important;
+  }
+  .navlist li {
+    padding: 2rem;
+    border-bottom: 0.1rem solid #ccc;
+  }
+  .navlist a {
+    font-size: var(--Fontsize);
+    color: var(--Black) !important;
+  }
+
+  .bodyPage {
+    margin-top: 11rem !important;
+  }
+  .bodyContent {
+    /* z-index: 1 !important; */
+    width: 90% !important;
+  }
+  .B-text{
+    display: none !important;
+  }
+  .bookmark{
+    padding: 0 !important;
+  }
+  .acount{
+    flex-direction: column !important;
+    align-items: center;
+    gap: 2rem !important;
+  }
+  .acount hr{
+    width: 4rem !important;
+  }
+  .header-bambo,
+  .footer-bam{
+    gap: 1rem;
+    flex-direction: column !important;
+
+  }
+}

@@ -1,0 +1,171 @@
+/* @import url(https://fonts.google.com/specimen/Commissioner); */
+
+@import url("https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&display=swap");
+
+@import url(utiles.css);
+@import url(mobiles.css);
+/* weight Use a value from 100 to 900 */
+
+body {
+  font-family: "Commissioner", sans-serif;
+  font-weight: 400;
+  font-optical-sizing: auto;
+  background-color: #f4f2f2;
+
+  font-variation-settings: "slnt" 0, "FLAR" 0, "VOLM" 0;
+  font-style: normal;
+}
+:root {
+  --Moderatecyan: hsl(176, 50%, 47%);
+  --Darkcyan: hsl(176, 72%, 28%);
+  --Black: hsl(0, 0%, 0%);
+  --Darkgray: hsl(0, 0%, 48%);
+  --Fontsize: 16px;
+  --Family: [Commissioner];
+  --Weight: 400;
+  --WeightMedium: 500;
+  --Weights: 700;
+}
+
+.hero {
+  min-height: 100vh;
+  background-image: url(/images/image-hero-desktop.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.header {
+  height: 5rem;
+  z-index: 1000 !important;
+}
+.nav {
+  font-weight: var(--Weights);
+}
+.bodyPage {
+  margin-top: 16rem;
+  min-height: 100vh;
+  /* border: 1rem solid #ccc; */
+}
+.bodyContent {
+  min-height: 100vh;
+  /* border: 1rem solid #ccc; */
+  width: 50%;
+
+  background-color: #f4f2f2;
+}
+.bodyContent > * {
+  background-color: #fff;
+  /* border: .1rem solid #ccc; */
+}
+.logo-m {
+  right: 45%;
+  top: -1.6rem;
+}
+.text {
+  color: #fff;
+  background-color: var(--Moderatecyan);
+}
+.text:hover{
+  background-color: var(--Darkcyan);
+}
+.bookmark {
+  position: relative;
+  padding-right: 1rem;
+  padding-left: 0.1rem;
+  font-weight: 700;
+  overflow: hidden;
+  color: var(--Darkcyan);
+  background-color: hsla(176, 50%, 47%, 0.182);
+  transition: all 1s;
+}
+
+.bookmark:hover {
+  color: var(--Darkgray);
+  background-color: #f4f2f2;
+  transition: all 1s;
+  circle {
+    fill: var(--Darkgray) !important;
+    transition: all 1s;
+  }
+   path {
+    fill: #f4f2f2 !important ;
+    transition: all 1s;
+  }
+ 
+}
+.bookmark circle {
+  fill: var(--Darkcyan) !important;
+}
+.bookmark path {
+  fill: #fff !important ;
+}
+
+.B-text {
+  font-weight: 700;
+}
+.acount h3 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.acount p {
+  opacity: 0.75;
+}
+.level {
+  position: relative;
+  height: 1rem;
+  background-color: #f4f2f2;
+  border-radius: 2rem;
+  border: none;
+}
+.level::after {
+  content: "";
+  width: 80%;
+  height: 100%;
+  position: absolute;
+  background-color: var(--Darkcyan);
+  border-radius: 2rem;
+}
+.pledge_title {
+  color: var(--Darkcyan);
+  font-size: var(--Fontsize);
+  font-weight: var(--Weights);
+}
+
+.bamboo {
+  border: 0.1rem solid #cccccce2;
+}
+
+.numb {
+  font-size: 35px;
+  padding-right: 0.5rem;
+  font-weight: 700;
+}
+
+.select-box {
+  text-align: center;
+  background-color: var(--Moderatecyan);
+  color: #fff;
+  border-radius: 2rem;
+  font-weight: 700;
+}
+.select-box:hover {
+  background-color: var(--Darkcyan);
+}
+
+.descipt- {
+  opacity: 0.85;
+  text-align: justify;
+}
+
+.projectDesc {
+  opacity: 0.85;
+}
+.outStock {
+  opacity: 0.25;
+}
+.select-box-3 {
+  background-color: var(--Darkgray);
+  color: #fff;
+  border-radius: 2rem;
+  font-weight: 700;
+}
