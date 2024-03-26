@@ -401,3 +401,8 @@ margin-bottom: 4rem;
 .text-center{
   text-align: center;
 }
+.grid{
+  display: grid;
+  grid-template-columns: repeat(10, 10%);
+  
+}
